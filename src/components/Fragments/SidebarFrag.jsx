@@ -7,18 +7,43 @@ const { Sider } = Layout;
 
 const menu_list = [
     {
-        label: <Link to='/'>Home</Link>,
+        label: <Link to='/'>Dashboard</Link>,
         key: 'home',
         icon: <HomeOutlined />,
     },
     {
-        label: <Link to='/assignment'>Assignment</Link>,
-        key: 'assignment',
+        label: <Link to='/'>Messages</Link>,
+        key: 'message',
+        icon: <HomeOutlined />,
+    },
+    {
+        label: <Link to='/order'>Order List</Link>,
+        key: 'order',
         icon: <CopyOutlined />,
     },
     {
-        label: <Link to='/master'>Master</Link>,
-        key: 'master',
+        label: <Link to='/resto'>Resto List</Link>,
+        key: 'resto',
+        icon: <CopyOutlined />,
+    },
+    {
+        label: <Link to='/menu'>Menu List</Link>,
+        key: 'menu',
+        icon: <CarOutlined />,
+    },
+    {
+        label: <Link to='/review'>Reviews</Link>,
+        key: 'review',
+        icon: <CarOutlined />,
+    },
+    {
+        label: <Link to='/bookmark'>Bookmarks</Link>,
+        key: 'bookmark',
+        icon: <CarOutlined />,
+    },
+    {
+        label: <Link to='/profile'>My Profile</Link>,
+        key: 'profile',
         icon: <CarOutlined />,
     },
 ]

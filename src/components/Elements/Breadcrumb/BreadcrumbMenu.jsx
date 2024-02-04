@@ -6,7 +6,7 @@ export default function BreadcrumbMenu(props) {
     let item = []
     switch (path) {
         case "home":
-        case "assignment":
+        case "order":
         case "master":
         case "information delivery":
             item = [

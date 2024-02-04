@@ -7,12 +7,17 @@ import Error404 from './pages/Error404.jsx'
 import './index.css'
 import HomePage from './pages/HomePage.jsx'
 import LoginPage from './pages/LoginPage.jsx'
+import OrderPage from './pages/OrderPage.jsx'
 
 const router = createBrowserRouter([
   {
     path:"/",
     element:<HomePage />,
     errorElement:<Error404></Error404>
+  },
+  {
+    path:"/order",
+    element:<OrderPage />,
   },
   {
     path:"/auth/login",
